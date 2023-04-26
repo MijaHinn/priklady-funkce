@@ -1,1 +1,1 @@
-# priklady-funkce
+# JavaScript Kung-Fu: Funkce
