@@ -21,12 +21,10 @@ Napište jednoduchou JavaScriptovou funkci s názvem secti, která přijímá dv
 */
 
 const secti = (a, b) => {
-    let vysledek = a + b;
-    console.log("Součet je: " + vysledek);
-    return vysledek;
+    return a + b;
 }
 
-secti(5, 3);
+console.log("Součet je: " + secti(5, 4));
 
 
 /*
@@ -35,12 +33,10 @@ Vytvořte funkci s názvem vypoctiPlochu, která přijímá dva parametry, sirka
 */
 
 const vypoctiPlochu = (sirka, vyska) => {
-    let plocha = sirka * vyska;
-    console.log("Plocha obdelníku je: " + plocha);
-    return plocha;
+    return sirka * vyska;
 }
 
-vypoctiPlochu(2, 3);
+console.log("Plocha obdelníku je: " + vypoctiPlochu(2, 3));
 
 
 /*
@@ -49,12 +45,10 @@ Vytvořte funkci s názvem prumer, která přijímá dva parametry, a a b, a vr�
 */
 
 const prumer = (a, b) => {
-    let prumerVysledek = (a + b) / 2;
-    console.log("Průměr je: " + prumerVysledek);
-    return prumerVysledek;
+    return (a + b) / 2;
 }
 
-prumer(16, 4);
+console.log("Průměr je: " + prumer(16, 4));
 
 
 /*
@@ -67,12 +61,10 @@ const fahrenheitNaCelsius = (fahrenheit) => {
     console.log("Převod teploty z Fahrenheit na Celsius je: " + celsius);
 
     let zaokrouhleni = Math.round(celsius * 100) / 100;
-
-    console.log("Zaokrouhlené stupně Celsia: " + zaokrouhleni);
     return zaokrouhleni;
 }
 
-fahrenheitNaCelsius(100);
+console.log("Zaokrouhlené stupně Celsia: " + fahrenheitNaCelsius(100));
 
 
 /*
